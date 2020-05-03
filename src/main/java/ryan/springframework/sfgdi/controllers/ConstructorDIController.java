@@ -1,7 +1,9 @@
 package ryan.springframework.sfgdi.controllers;
 
+import org.springframework.stereotype.Controller;
 import ryan.springframework.sfgdi.service.GreetingService;
 
+@Controller
 public class ConstructorDIController {
 
     public GreetingService greetingService;
